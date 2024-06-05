@@ -1,1 +1,24 @@
-/* Header CSS */#site-header.has-header-media .overlay-header-media{background-color:rgba(0,0,0,0.5);}
+/* General CSS */#main #content-wrap, .separate-layout #main #content-wrap{padding-top:0px;padding-bottom:0px;}/* Header CSS */#site-logo #site-logo-inner,.oceanwp-social-menu .social-menu-inner,#site-header.full_screen-header .menu-bar-inner,.after-header-content .after-header-content-inner{height:72px;}#site-navigation-wrap .dropdown-menu > li > a,.oceanwp-mobile-menu-icon a,.mobile-menu-close,.after-header-content-inner > a{line-height:72px;}#site-header.has-header-media .overlay-header-media{background-color:rgba(0,0,0,0.5);}#site-logo #site-logo-inner a img, #site-header.center-header #site-navigation-wrap .middle-site-logo a img{max-width:173px;}@media (max-width: 320px) {
+					#top-bar-nav, #site-navigation-wrap, .oceanwp-social-menu, .after-header-content {display: none;}
+					.center-logo #site-logo { float: none; position: absolute; left: 50%; padding: 0; -webkit-transform: translateX(-50%); transform: translateX(-50%); }
+					#site-header.center-header #site-logo, .oceanwp-mobile-menu-icon, #oceanwp-cart-sidebar-wrap {display: block;}
+					body.vertical-header-style #outer-wrap {margin: 0 !important;}
+					#site-header.vertical-header { position: relative; width: 100%; left: 0 !important; right: 0 !important; }
+					#site-header.vertical-header .has-template > #site-logo { display: block; }
+					#site-header.vertical-header #site-header-inner { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-align-items: center;
+					align-items: center; padding: 0; max-width: 90%; }
+					#site-header.vertical-header #site-header-inner > *:not(.oceanwp-mobile-menu-icon) { display: none; }
+					#site-header.vertical-header #site-header-inner > * { padding: 0 !important; }
+					#site-header.vertical-header #site-header-inner #site-logo { display: block; margin: 0; width: 50%; text-align: left; }
+					body.rtl #site-header.vertical-header #site-header-inner #site-logo { text-align: right; }
+					#site-header.vertical-header #site-header-inner .oceanwp-mobile-menu-icon { width: 50%; text-align: right; }
+					body.rtl #site-header.vertical-header #site-header-inner .oceanwp-mobile-menu-icon { text-align: left; }
+					#site-header.vertical-header .vertical-toggle, body.vertical-header-style.vh-closed #site-header.vertical-header .vertical-toggle { display: none; }
+					#site-logo.has-responsive-logo .custom-logo-link { display: none; }
+					#site-logo.has-responsive-logo .responsive-logo-link { display: block; }
+					.is-sticky #site-logo.has-sticky-logo .responsive-logo-link { display: none; }
+					.is-sticky #site-logo.has-responsive-logo .sticky-logo-link { display: block; }
+					#top-bar.has-no-content #top-bar-social.top-bar-left, #top-bar.has-no-content #top-bar-social.top-bar-right {position: inherit; left: auto; right: auto; float: none; height: auto; line-height: 1.5em; margin-top: 0; text-align: center;}
+					#top-bar.has-no-content #top-bar-social li {float: none; display: inline-block;}
+					.owp-cart-overlay, #side-panel-wrap a.side-panel-btn { display: none !important; }
+				}

@@ -11,3 +11,118 @@ Updated: 2024-05-20 12:35:05
 
 */
 
+ /* Style pour le conteneur de produit */
+.product {
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* Style pour le nom du produit */
+.product-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+/* Style pour le conteneur de quantité */
+.quantity-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style pour les boutons plus et moins */
+.quantity-container .minus,
+.quantity-container .plus {
+    background-color: #E0B9B4;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: not-allowed;
+    font-size: 16px;
+    margin: 0 5px;
+}
+/* Style pour le champ de quantité */
+.quantity-container .quantity-input {
+    width: 50px;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 5px;
+}
+/* Style pour le bouton OK */
+.quantity-container .ok-button {
+    background-color: #E0B9B4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+} 
+.quantity-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px; /* Ajuste l'espace entre les boutons */
+}
+
+.quantity-wrapper button {
+    width: 30px; /* Ajuste la largeur des boutons */
+    height: 30px; /* Ajuste la hauteur des boutons */
+    background-color: #ddd; /* Ajuste la couleur de fond des boutons */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.quantity-wrapper input[type="number"] {
+    width: 50px; /* Ajuste la largeur du champ de saisie */
+    text-align: center;
+    font-size: 16px;
+}
+.quantity-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Espace entre le groupe de boutons et le bouton OK */
+}
+
+.quantity-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px; /* Espace entre les boutons et le champ de quantité */
+}
+
+.quantity-wrapper button {
+    width: 30px; /* Ajuste la largeur des boutons */
+    height: 30px; /* Ajuste la hauteur des boutons */
+    background-color: #ddd; /* Ajuste la couleur de fond des boutons */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.quantity-wrapper input[type="number"] {
+    width: 50px; /* Ajuste la largeur du champ de saisie */
+    text-align: center;
+    font-size: 16px;
+}
+
+.ok-button {
+    background-color: #f5a623; /* Couleur de fond du bouton OK */
+    color: #fff; /* Couleur du texte du bouton OK */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+
+
+ 
+  
+
