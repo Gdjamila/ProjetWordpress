@@ -10,119 +10,104 @@ Version: 3.5.5.1716201305
 Updated: 2024-05-20 12:35:05
 
 */
+/* pour les boutons de quantité */
 
- /* Style pour le conteneur de produit */
-.product {
-    text-align: center;
-    margin-bottom: 20px;
-}
-/* Style pour le nom du produit */
-.product-name {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-/* Style pour le conteneur de quantité */
-.quantity-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-/* Style pour les boutons plus et moins */
-.quantity-container .minus,
-.quantity-container .plus {
-    background-color: #E0B9B4;
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: not-allowed;
-    font-size: 16px;
-    margin: 0 5px;
-}
-/* Style pour le champ de quantité */
-.quantity-container .quantity-input {
-    width: 50px;
-    text-align: center;
-    font-size: 16px;
-    margin: 0 5px;
-}
-/* Style pour le bouton OK */
-.quantity-container .ok-button {
-    background-color: #E0B9B4;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-left: 10px;
-} 
-.quantity-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5px; /* Ajuste l'espace entre les boutons */
+/* le formulaire de comamnde commence  */
+
+.wpcf7 h1{
+  margin-left: 133px;
+   font-size: 28px;
+   padding-bottom: 22px;
+   font-weight: 700;
+   }
+
+.wpcf7 .input-field {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  width: 75%;
+  margin-bottom: 10px;
 }
 
-.quantity-wrapper button {
-    width: 30px; /* Ajuste la largeur des boutons */
-    height: 30px; /* Ajuste la hauteur des boutons */
-    background-color: #ddd; /* Ajuste la couleur de fond des boutons */
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
+.wpcf7 .input-field[type="text"],
+.wpcf7 .input-field[type="email"] {
+  height: 65px; 
 }
 
-.quantity-wrapper input[type="number"] {
-    width: 50px; /* Ajuste la largeur du champ de saisie */
-    text-align: center;
-    font-size: 16px;
-}
-.quantity-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px; /* Espace entre le groupe de boutons et le bouton OK */
+.wpcf7 textarea.input-field {
+  height: 90%; 
 }
 
-.quantity-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5px; /* Espace entre les boutons et le champ de quantité */
+.wpcf7 label {
+  font-size: 20px; /* Taille de la police des labels */
+  color: black; /* Couleur du texte des labels */
+  display: block; /* Affiche les labels comme des blocs, pour qu'ils prennent toute la largeur disponible */
+  margin-bottom: -13px; 
+  padding-left: 80px;   
 }
 
-.quantity-wrapper button {
-    width: 30px; /* Ajuste la largeur des boutons */
-    height: 30px; /* Ajuste la hauteur des boutons */
-    background-color: #ddd; /* Ajuste la couleur de fond des boutons */
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
+.wpcf7 #envoi {
+  display: block;
+  width: 100%;
+  height: 50px;
+  max-width: 190px; 
+  margin: 0 auto;
+  background-color: #E0B9B4;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
 }
 
-.quantity-wrapper input[type="number"] {
-    width: 50px; /* Ajuste la largeur du champ de saisie */
-    text-align: center;
-    font-size: 16px;
+.wpcf7 #envoi:hover {
+  background-color: #C02E44;
 }
 
-.ok-button {
-    background-color: #f5a623; /* Couleur de fond du bouton OK */
-    color: #fff; /* Couleur du texte du bouton OK */
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
+/* style du bas des sections de la page d'ccueil */
+.elementor-12 .elementor-element.elementor-element-f5abd46 {
+  position: relative;
+  background: #EFE9E1;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
 }
 
+.elementor-12 .elementor-element.elementor-element-9058391 {
+  background: #EFE9E1;
+}
 
+.elementor-12 .elementor-element.elementor-element-dd94902 {
+  position: relative;
+  background: #EFE9E1;
+  border-bottom-left-radius: 50% 57%;
+  border-bottom-right-radius: 50% 57%;
+}
 
+/* style du bas des sections de la page nous rencontrer */
+.elementor-14 .elementor-element.elementor-element-f678c6a {
+  position: relative;
+  background: #EFE9E1;
+  height: 20vh;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+}
 
+.elementor-14 .elementor-element.elementor-element-1559780 {
+  background: #EFE9E1;
+  position: relative;
+  border-bottom: #DDD0C5;
+  border-bottom-left-radius: 50% 25%;
+  border-bottom-right-radius: 50% 25%;
+}
 
- 
-  
+.elementor-14 .elementor-element.elementor-element-0eab0be {
+  background: #EFE9E1; 
+}
 
+.elementor-14 .elementor-element.elementor-element-9e94fb3{
+  background: #EFE9E1;
+}
