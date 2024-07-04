@@ -10,65 +10,8 @@ Version: 3.5.5.1716201305
 Updated: 2024-05-20 12:35:05
 
 */
-/* pour les boutons de quantité */
+/* --- Le style du bas des sections de la page d'ccueil commence ici ----*/
 
-
-/* le formulaire de comamnde commence  */
-
-.wpcf7 h1{
-  margin-left: 133px;
-   font-size: 28px;
-   padding-bottom: 22px;
-   font-weight: 700;
-   }
-
-.wpcf7 .input-field {
-  background-color: white;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  box-sizing: border-box;
-  width: 75%;
-  margin-bottom: 10px;
-}
-
-.wpcf7 .input-field[type="text"],
-.wpcf7 .input-field[type="email"] {
-  height: 65px; 
-}
-
-.wpcf7 textarea.input-field {
-  height: 90%; 
-}
-
-.wpcf7 label {
-  font-size: 20px; /* Taille de la police des labels */
-  color: black; /* Couleur du texte des labels */
-  display: block; /* Affiche les labels comme des blocs, pour qu'ils prennent toute la largeur disponible */
-  margin-bottom: -13px; 
-  padding-left: 80px;   
-}
-
-.wpcf7 #envoi {
-  display: block;
-  width: 100%;
-  height: 50px;
-  max-width: 190px; 
-  margin: 0 auto;
-  background-color: #E0B9B4;
-  color: white;
-  padding: 10px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  text-align: center;
-}
-
-.wpcf7 #envoi:hover {
-  background-color: #C02E44;
-}
-
-/* style du bas des sections de la page d'ccueil */
 .elementor-12 .elementor-element.elementor-element-f5abd46 {
   position: relative;
   background: #EFE9E1;
@@ -76,7 +19,7 @@ Updated: 2024-05-20 12:35:05
   border-bottom-right-radius: 50% 20%;
 }
 
-.elementor-12 .elementor-element.elementor-element-9058391 {
+.elementor-14 .elementor-element.elementor-element-c814f90 {
   background: #EFE9E1;
 }
 
@@ -87,7 +30,8 @@ Updated: 2024-05-20 12:35:05
   border-bottom-right-radius: 50% 57%;
 }
 
-/* style du bas des sections de la page nous rencontrer */
+/*  le style des sections nous rencontrer commence ici -------*/
+
 .elementor-14 .elementor-element.elementor-element-f678c6a {
   position: relative;
   background: #EFE9E1;
@@ -104,10 +48,340 @@ Updated: 2024-05-20 12:35:05
   border-bottom-right-radius: 50% 25%;
 }
 
+.elementor-14 .elementor-element.elementor-element-9e94fb3,
 .elementor-14 .elementor-element.elementor-element-0eab0be {
-  background: #EFE9E1; 
-}
-
-.elementor-14 .elementor-element.elementor-element-9e94fb3{
   background: #EFE9E1;
 }
+
+/* ------- le style du formulaire nous contacter commence ici  */
+
+.wpcf7 h1 {
+  margin-left: 140px;
+  font-size: 26px;
+  padding-bottom: 22px;
+  font-weight: 700;
+  }
+
+ /*  Le style pour les champs de saisies */
+.wpcf7 .input-field {
+  width: 67% !important;
+  padding: 10px !important;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.wpcf7 .input-field[type="text"],
+.wpcf7 .input-field[type="email"] {
+  height: 60px;
+  margin-top: 3px;
+}
+
+.wpcf7 textarea.input-field {
+  height: 90%;
+  margin-top: 3px;
+}
+
+/*  Le style pour les labels */
+.wpcf7 label {
+  font-size: 17px;  /* Taille de la police des labels */
+  color: black;   /* Couleur du texte des labels */
+  display: block;  /* Affiche les labels comme des blocs, pour qu'ils prennent toute la largeur disponible */
+  margin-bottom: -13px;   /* Espace sous chaque label */
+  padding-left: 75px;
+  font-weight: 500;
+}
+
+/*  Le style pour le bouton d'envoi */
+.wpcf7 #envoi {
+  display: block;
+  width: 100%;
+  height: 50px;
+  max-width: 170px;
+  margin: 0 auto;
+  margin-left: 149px;
+  background-color: #E0B9B4;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Effet de survol pour le bouton de soumission */
+.wpcf7 #envoi:hover {
+  background-color: #C02E44 !important; /* Couleur de fond plus foncée lors du survol */
+}
+
+/* Pour supprimer les marges et paddings de tous les éléments après le footer */
+.page-id-14 #site-footer + * {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.page-id-14 #site-footer {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+
+/*------- Le style pour le Formulaire de commande commence ici ------- */
+
+/*La section du formulaire */
+.elementor-16 .elementor-element.elementor-element-fcd7b23{
+  background-color: #3B8E46 !important;
+}
+
+/*Les quantités*/
+.Qte{
+  display: flex !important;   
+  flex-direction: row !important; 
+  flex-wrap: wrap !important; /* les éléments vont à la ligne lorsqu'il n'y a plus la place  */
+  justify-content: space-around !important; /* les éléments sont étirés sur tout l'axe, ils laissent de l'espace sur les extrémités*/
+  margin-bottom: 12px;
+  margin-top: auto;
+  }
+  .Qte p{
+    height: 100%;
+  }
+  .Qte input{
+    height: 100%;
+    display: block;
+  }
+
+.fraise, .pamplemousse, .framboise, .citron{
+  background-color: white !important;
+  height: 49px !important;
+  width: 35px !important; 
+  margin-bottom: 20px !important;  
+}
+.fraise{
+  margin-left: 25px !important; 
+}
+.pamplemousse{
+  margin-right: 15px !important;  
+}
+.framboise{
+  margin-right: 12px !important;
+}
+.citron{
+  margin-right: 42px !important;
+}
+
+/* Le trait horizontal*/ 
+.divider-horizontal hr {
+  border: 15px !important;
+  border-top: 1px solid white !important;
+  margin: auto; /* Centre la ligne */
+  width: 93% !important; /* la largeur du trait */
+ }
+
+/* Conteneur pour les deux sections */
+.form-container { 
+  display: flex !important;  /* Utilisation de flexbox pour aligner les sections */
+  flex-direction: row; /*agencement des élements en ligne */
+  flex-wrap: wrap; /* les éléments vont à la ligne lorsqu'il n'y a plus la place */  
+  margin-bottom: 14px !important;  /* Marge en bas des sections */  
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Style pour les sections de formulaire */
+.form-container .commande,
+.form-container .livraison {
+  display: block !important;
+  width: 45% !important;  /* Chaque section prend 45% de la largeur */
+  padding: 2px !important; /* Ajout de padding pour l'espacement intérieur */
+  border-radius: 5px !important; /* Coins arrondis */
+  box-sizing: border-box !important;  /* Inclut le padding et la bordure dans la largeur totale */
+  margin-top: 50px; 
+}
+
+/* Le trait vertical */
+.vertical-divider{
+  display: flex!important;
+  width: 1px !important;
+  background-color: white !important;
+  margin-left: 32px;
+  margin-right: 6px;
+  margin-top: 55px !important;
+  height: 83% !important; 
+  }
+
+/* Les titres des deux sections*/
+.form-container h2 {
+  color: #ffffff; /* Couleur du texte */
+  font-size: 25px; /* Taille de la police */
+  margin-bottom: 30px; 
+  padding-left: 20px;
+}
+
+/* Les labels des deux sections*/
+.form-container label {
+  color: #ffffff; /* Couleur du texte */
+  font-size: 15px;
+  font-weight: normal !important;
+  margin-bottom: 5px; /* Espacement inférieur */
+  display: block; /* Affiche le label en bloc pour alignement correct */
+}
+
+/* La marge de gauche pour le titre de la section livraison */
+.livraison h2  {
+  margin-left: 20px !important; 
+}
+
+.form-group-info label{  
+  margin-left: 10px !important;
+  padding-left: 10px !important;
+  position: relative;  
+}
+
+.form-group-livraison label{
+  margin-left: 20px !important;
+  padding-left: 20px !important;
+  position: relative !important;
+}
+/* Groupes de champs de formulaire */
+.form-group-info, .form-group-livraison {
+  display: flex !important; /* Utilise le modèle Flexbox pour aligner les champs */
+  flex-direction: column !important; /* Dispose les éléments en colonne */
+  gap: 20px !important; /* Espace entre les éléments */
+}
+
+/* Styles pour les champs de texte, e-mail */
+.form-container input[type="text"],
+.form-container input[type="email"] {
+  width: 97% !important; /* Largeur du champ */
+  height: 60px !important; /* Hauteur du champ */
+  padding: 10px; /* Espacement interne */
+  font-size: 1em; /* Taille de la police */
+  border: 1px solid; /* Bordure */
+  border-radius: 5px !important; /* Bords arrondis */
+  margin-top: 5px !important; /* Espacement supérieur */
+  background-color:white!important; /* Couleur de fond */
+}
+
+/* Styles pour le bouton de soumission */
+ .submit-container input[type="submit"] {
+  background-color: #E0B9B4 !important; /* Couleur de fond rose pâle */
+  border: 1px !important; /* Supprime la bordure par défaut */
+  padding: 18px 40px !important; /* Espacement interne */
+  font-size: 12px !important; /* Taille de la police */
+  color: #ffffff !important; /* Couleur du texte */
+  cursor: pointer !important; /* Curseur pointeur */
+  margin-left: 332px;
+  }
+
+/* Effet de survol pour le bouton de soumission */
+.submit-container input[type="submit"]:hover {
+  background-color: #C02E44 !important; /* Couleur de fond plus foncée lors du survol */
+}
+
+/* Messages d'erreur personnalisés */
+ .wpcf7-not-valid-tip {
+  color: red !important; /* Couleur du texte du message d'erreur */
+  font-size: 0.9em !important; /* Taille de la police du message d'erreur */
+  position: absolute; /* Position absolue */
+  left: 0 !important; /* Aligner à gauche */
+  top: 100% !important; /* Positionner en dessous de l'élément */
+  margin-top: 5px !important; /* Espacement supérieur */
+}
+
+/* Empêcher le décalage des éléments lors de l'affichage des messages d'erreur */
+.wpcf7-form-control-wrap {
+  position: relative !important;
+  margin-bottom: 40px !important; /* Ajouter de l'espace pour les messages d'erreur */
+}
+
+/* Les sections du titre, du premier trait, du titre votre commande, du 2 eme trait, 
+section des quantités, section du formulaire et la section des fruits */
+.elementor-16 .elementor-element.elementor-element-cb388bd,
+.elementor-16 .elementor-element.elementor-element-18ac761,
+.elementor-16 .elementor-element.elementor-element-365ebfa,
+.elementor-16 .elementor-element.elementor-element-01f64e1,
+.elementor-16 .elementor-element.elementor-element-7874146,
+.elementor-16 .elementor-element.elementor-element-1701ae2,
+.elementor-16 .elementor-element.elementor-element-7874146,
+.elementor-16 .elementor-element.elementor-element-914b2d1,
+.elementor-16 .elementor-element.elementor-element-3974b2e {
+  background-color: #3B8E46;
+}
+
+/* Styles spécifiques pour les écrans de 400px ou moins */
+@media all and (max-width: 400px) {
+  .wpcf7 #envoi {
+    width: 30% !important; /* Réduit la largeur du bouton */
+    text-align: center !important; /* Centrer le texte */
+    font-size: small;
+    margin-left: 0% !important;
+  }
+}
+
+@media all and (max-width: 450px){  
+  .wpcf7 h1 {
+    font-size: 13px !important; 
+    margin-left: 0% !important;
+  } 
+}
+
+@media all and (max-width: 400px) {
+  .wpcf7 label {
+    font-size: small!important;
+  }
+}
+ 
+/* Styles spécifiques pour les écrans page de commande */
+
+@media all and (max-width: 1025px){
+  .form-container .commande,
+  .form-container .livraison {
+  width: 100% !important; 
+  } 
+}
+/* le trait disparait  */
+@media all and (max-width: 1024px){  
+  .form-container .vertical-divider {
+    display: none !important; 
+  } 
+}
+
+@media all and (max-width: 768px){  
+  .submit-container input[type="submit"] {
+    align-content: center; 
+  } 
+}
+/* --------- */
+ /* Media query pour écrans de 768px ou moins */
+ @media all and (max-width: 768px) {
+  .Qte {
+    margin: 0%;    
+  }
+
+  .form-group-info label, 
+  .form-group-livraison label {
+    font-size: 13px; /* Réduit la taille de la police des labels */
+  }
+
+  input[type="text"], input[type="email"], input[type="number"] {
+    padding: 8px; /* Réduit le padding des inputs */
+    font-size: 13px; /* Réduit la taille de la police des inputs */
+    width: 80% !important;
+  }
+
+  .submit-container input[type="submit"] {
+    padding: 10px 15px; /* Réduit le padding du bouton */
+    font-size: 13px; /* Réduit la taille de la police du bouton */
+    margin-left: 0%;
+  }
+
+  .Qte div, .form-group-info, .form-group-livraison {
+    margin-bottom: 10px; /* Ajuste les marges entre les div */
+  }
+}
+
+/* ------- */
+  
+
+
